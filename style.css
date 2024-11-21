@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    gap: 50px;
+    
+}
+.UI{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    gap: 50px;
+
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 1000px;
+    flex: 2;
+    
+    
+}
+#Rock,#Paper,#Scissors{
+    height: 100px;
+}
+button{
+    height: 100px;
+    width: 100px;
+}
+#userChoice,#computerChoice{
+    height: 200px;
+    width: 200px;
+}
+.Play_Area{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
